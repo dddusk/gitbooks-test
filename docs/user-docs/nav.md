@@ -1,17 +1,22 @@
-# Summary
+# Table of contents
+
+* [Introduction](index.md)
 
 ## Quickstart
 
-* [Let's Get Started](index.md)
+* [Getting Started](quickstart/index.md)
 
-## CLI Reference
+## CLI <a id="cli-reference"></a>
 
-* [See CLI Documentation](cli.md)
+* [CLI Reference](cli-reference/cli.md)
 
 ## Administrator
-  * [Configuration](administrator/configuration.md)
-  * [Upgrading](administrator/upgrading.md)
-  * [Compatibility](administrator/compatibility.md)
+
+* [Configuration](administrator/configuration.md)
+* [Upgrading](administrator/upgrading.md)
+* [Compatibility](administrator/compatibility.md)
 
 ## Tutorials
-  * [Writing a Kelda Configuration](tutorials/configuration.md)
+
+* [Writing a Kelda Configuration](tutorials/configuration.md)
+
