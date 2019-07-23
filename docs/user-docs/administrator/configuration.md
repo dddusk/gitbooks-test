@@ -4,7 +4,7 @@ This document, intended for Kubernetes administrators, will provide details on c
 
 **Note:** If you've already completed the Quickstart, then you have already deployed the Kelda Minion and installed the CLI. You can skip to the [Configuration Files](configuration.md#configuration-files) portion of this documentation to configure Kelda for your own project.
 
-## Installing Kelda
+## Installing Kelda Quick
 
 You should install the latest version of Kelda using the following command:
 
