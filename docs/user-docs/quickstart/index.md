@@ -1,4 +1,4 @@
-# Introduction
+# Getting Started
 
 This guide will quickly get you up and running with Kelda. We will be working with a real-world, open source, microservices application called [Magda](https://github.com/magda-io/magda). We will deploy Kelda to a Kubernetes cluster, install the CLI, deploy a development instance of Magda, fix a bug, and see our local changes take effect immediately on the development server. After reading this guide you will have a solid foundation on the basics of how to deploy, install, and use Kelda to supercharge your microservices development workflow. Let's jump in.
 
@@ -141,7 +141,7 @@ Either use the provided snippet to upgrade if Kelda is installed in
 
    `kelda dev` will deploy the Magda service to the remote cluster and boot all application dependencies. You will see a new screen in your terminal with information about the cluster.
 
-   ![Kelda](.gitbook/assets/kelda-startup.png)
+   ![Kelda](../.gitbook/assets/kelda-startup.png)
 
    Wait for all the services to become `Ready`. The first boot may take several minutes because the Docker images need to be pulled.
 
@@ -155,7 +155,7 @@ Either use the provided snippet to upgrade if Kelda is installed in
 
    You will notice that Kelda will automatically sync your change and restart the affected containers. The **Development Status** portion of the Kelda terminal application informs you of all of the changes that are occurring in real time.
 
-   ![Kelda Syncing Info](.gitbook/assets/syncing-info.png)
+   ![Kelda Syncing Info](../.gitbook/assets/syncing-info.png)
 
    If you refresh the page in your browser, or perform a new search, you should see the `SyntaxError` go away, and search results begin to appear.
 
